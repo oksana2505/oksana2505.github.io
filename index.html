@@ -2,9 +2,148 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Switch</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
+
 <body>
+<!-- Page Header -->
+<header class="page_header">
+    <div class="container clearfix">
+        <nav class="navigation_wrapper">
+            <ul class="navigation navigation-main">
+                <li class="navigation_item"><a href="#" class="navigation_link">Home</a></li>
+                <li class="navigation_item"><a href="#" class="navigation_link">What we do?</a></li>
+                <li class="navigation_item"><a href="#" class="navigation_link">Testimonial</a></li>
+                <li class="navigation_item"><a href="#" class="navigation_link">Contact us</a></li>
+            </ul>
+        </nav>
+        <div class="brand">
+            <!-- <a class="brand_link"><img class="brand_logo" src="img/Logo.png" alt="Switch Logo" width="180"></a>-->
+            <h2 class="brand_name visually-hidden">Switch</h2>
+        </div>
+        <div class="toolsbar">
+            <div class="search">
+                <i class="search_icon"></i>
+                <!--Search bloc...-->
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Page Header -->
+
+<!-- Page Main -->
+<main class="page_content">
+    <section class="presentation">
+        <h1 class="visually-hidden">Switch</h1>
+        <h2>Art is Eternal Happiness</h2>
+        <a class="btn btn-middle" href="#">WORK WITH US</a>
+        <button class="btn_scroll down" type="button">scroll down</button>
+    </section>
+
+    <!-- Services -->
+    <section class="services">
+        <h2 class="services_title">WHAT WE DO</h2>
+        <p class="services_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+        <ul class="services_list container">
+            <li class="services_item">
+                 <a href="#">
+                    <h3 class="services_title">Lorem Ipsum</h3>
+                    <p>his is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+                 </a>
+            </li>
+            <li class="services_item">
+                <a href="#">
+                    <h3 class="services_title">Lorem Ipsum</h3>
+                    <p>his is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+                </a>
+            </li>
+            <li class="services_item">
+                <a href="#">
+                    <h3 class="services_title">Lorem Ipsum</h3>
+                    <p>his is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Latest work -->
+    <section class="latestwork">
+        <div class="container">
+            <h2 class="latestwork_title">OUR LATEST WORK</h2>
+            <!-- ______-->
+            <p class="latestwork_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+            <form class="latestwork_categories" name="latestwork" action="#" method="post">
+                <input id="latestwork-photography" type="radio" name="filter" value="photography" checked>
+                <input id="latestwork-design" type="radio" name="filter" value="design">
+                <input id="latestwork-print" type="radio" name="filter" value="print">
+                <label class="latestwork_filter" for="latestwork-photography">photography</label>
+                <label class="latestwork_filter" for="latestwork-design">design</label>
+                <label class="latestwork_filter" for="latestwork-print">print</label>
+                <button class="btn btn-filter" type="submit">View more work</button>
+            </form>
+            <ul class="latestwork_list">
+                <li class="latestwork_photo">
+                    <img class="photo_img" src="img/work1.jpg" alt="#">
+                </li>
+                <li class="latestwork_photo">
+                    <img class="photo_img" src="img/work2.jpg" alt="#">
+                </li>
+                <li class="latestwork_photo">
+                    <img class="photo_img" src="img/work3.jpg" alt="#">
+                </li>
+                <li class="latestwork_photo">
+                    <img class="photo_img" src="img/work4.jpg" alt="#">
+                </li>
+                <li class="latestwork_photo">
+                    <img class="photo_img" src="img/work5.jpg" alt="#">
+                </li>
+                <li class="latestwork_photo">
+                    <img class="photo_img" src="img/work6.jpg" alt="#">
+                </li>
+                <li class="latestwork_photo">
+                    <img class="photo_img" src="img/work7.jpg" alt="#">
+                </li>
+                <li class="latestwork_photo">
+                    <img class="photo_img" src="img/work8.jpg" alt="#">
+                </li>
+                <li class="latestwork_photo">
+                    <img class="photo_img" src="img/work9.jpg" alt="#">
+                </li>
+                <li class="latestwork_photo">
+                    <img class="photo_img" src="img/work10.jpg" alt="#">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Testimonials-->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="testimonials-title">TESTIMONIALS</h2>
+            <!-- черта-->
+            <p  class="testimonials_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+            <p class="testimonials_1">“Awalnya saya tidak menderita penyakit apapun,
+                namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan
+                tidak menderita penyakit apapun!"</p>
+            <button class="testimonials_btn testimonials_btn-prev" type="button">#</button>
+            <button class="testimonials_btn slider_btn-next" type="button">#</button>
+            <ul class="testimonial-client">
+                <li class="avatar-client">
+                    <img class="avatar" src="img/ellipse 1.png" alt="#">
+                </li>
+                <li class="name-client">Mr. Herp</li>
+                <li class="position-client">CEO of Meme, Inc.</li>
+            </ul>
+        </div>
+    </section>
+    
+</main>>
+
+
 
 </body>
+
 </html>
