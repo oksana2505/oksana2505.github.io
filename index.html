@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Switch</title>
+    <link rel="stylesheet" href="css/page_content.css">
+    <link rel="stylesheet" href="css/Layot.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -21,14 +24,19 @@
             </ul>
         </nav>
         <div class="brand">
-            <!-- <a class="brand_link"><img class="brand_logo" src="img/Logo.png" alt="Switch Logo" width="180"></a>-->
+            <a class="brand_link"><strong>Switch</strong></a>
             <h2 class="brand_name visually-hidden">Switch</h2>
         </div>
         <div class="toolsbar">
-            <div class="search">
-                <i class="search_icon"></i>
-                <!--Search bloc...-->
-            </div>
+            <form>
+                <div class="search">
+                    <input type="search" name="search">
+                    <input type="button" value="Search...">
+                    <!--<strong class="search_btn">Search...<strong>-->
+                    <i class="search_icon"></i>
+                    <!--Search bloc...-->
+                </div>
+            </form>
         </div>
     </div>
 </header>
@@ -37,10 +45,12 @@
 <!-- Page Main -->
 <main class="page_content">
     <section class="presentation">
-        <h1 class="visually-hidden">Switch</h1>
-        <h2>Art is Eternal Happiness</h2>
-        <a class="btn btn-middle" href="#">WORK WITH US</a>
-        <button class="btn_scroll down" type="button">scroll down</button>
+        <div class="presentation_wrapper">
+            <h1 class="visually-hidden">Switch</h1>
+            <h2 class="presentation_title">Art is Eternal Happiness</h2>
+            <a class="btn btn-middle" href="#">WORK WITH US</a>
+            <button class="btn_scroll down" type="button">scroll down</button>
+        </div>
     </section>
 
     <!-- Services -->
