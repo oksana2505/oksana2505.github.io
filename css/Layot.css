@@ -1,6 +1,6 @@
-/*  LAYOUT  */
+ /*  LAYOUT  */
 
-/html, body {
+html, body {
 
     min-width: 1170px;
     width: 100%;
@@ -96,7 +96,7 @@
 .btn-action,
 .btn-filter {
 
-    /*width: 170px;
+    width: 170px;
     border-radius: 3px;
     border-bottom: 3px solid #736357;
     background-color: #998675;
@@ -110,6 +110,6 @@
     text-transform: uppercase;
     text-align: center;
 
-}*/
+}
 
 /*  /BUTTON  */

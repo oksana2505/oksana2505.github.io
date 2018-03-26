@@ -122,7 +122,7 @@ ul {
     float: left;
     width: 370px;
     font-size: 24px;
-    font-family: "Nautilus Pompilius";
+    /*font-family: "Nautilus Pompilius";*/
     vertical-align: top;
     color: #ffffff;
     /*margin: 0 15px;*/
@@ -148,5 +148,5 @@ ul {
     width: 179px;
     height: 27px;
     padding-top: 5px;
-    maright:5px;
+    /*maright:5px;*/
 }
