@@ -6,7 +6,7 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
-    /*background-color: #ffffff;*/
+    background-color: #ffffff;
     color: #000000;
 
 }
@@ -22,7 +22,7 @@ html, body {
 
 .container {
 
-    width: 1170px;
+    width: 1107px;
     margin: 0;
 
 }
@@ -32,6 +32,7 @@ html, body {
 
     content: "";
     display: table;
+    width: 100%;
 
 }
 
@@ -79,7 +80,7 @@ html, body {
 
 }
 
-.btn-middle {
+/*.btn-middle {
 
     width: 210px;
     border-radius: 33px;

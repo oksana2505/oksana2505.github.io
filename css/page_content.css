@@ -1,7 +1,8 @@
  /*PAGE CONTENT*/
 
  .page_content,
- .presentation {
+ .presentation,
+ .presentation_wrapper {
      margin: 0;
      padding: 0;
  }
@@ -16,55 +17,59 @@
 
  }
 
- .presentation {
+ /*.presentation {*/
 
-     position: relative;
-     width: 100%;
-     height: 100%;
- }
+     /*position: relative;*/
+     /*width: 100%;*/
+     /*height: 659px;*/
+ /*}*/
 
  .presentation_wrapper {
      position: relative;
      width: 100%;
-     height: 100%;
+     height: 735px;
+     background-color: #cfcece;
      background-image: url("../img/background1.jpg");
      background-repeat: no-repeat;
-     background-position: center center;
+     background-position: center top;
      background-size: cover;
 
  }
 
  .presentation_title {
 
-     position: static;
-
-     line-height: 640px;
-     text-align: center;
-     /*font-family: "Montserrat";*/
+     position: absolute;
+     width: 676px;
+     height: 60px;
+     left:25%;
+     top:36%;
+     font-family: "Montserrat", Bold;
      font-size: 55px;
-     /*margin-top: 292px;*/
-     /*margin-left: 325px;*/
      color: #ffffff;
-
  }
 
  .btn-middle {
 
+
+     position: absolute;
      width: 210px;
+     left: 42%;
+     bottom: 37%;
      border-radius: 33px;
      text-align: center;
      background-color: #54d154;
      font-size: 14px;
      line-height: 50px;
      text-transform: uppercase;
-
-
-
-
+     /*color: white;*/
  }
 
-.btn .btn-middle {
+.btn {
     position: center;
-    margin-top: 253px;
+    padding-top: 253px;
     margin-left: 277px;
 }
+/*.btn_scroll down {*/
+
+    /*position: absolute;*/
+
