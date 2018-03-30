@@ -71,6 +71,7 @@ html, body {
 .btn {
 
     display: inline-block;
+
     margin: 0;
     padding: 0;
     border: none;
@@ -80,7 +81,7 @@ html, body {
 
 }
 
-/*.btn-middle {
+.btn-middle {
 
     width: 210px;
     border-radius: 33px;
@@ -100,7 +101,7 @@ html, body {
     width: 170px;
     border-radius: 3px;
     border-bottom: 3px solid #736357;
-    background-color: #998675;
+    background-color: white;
     color: #ffffff;
     cursor: pointer;
 

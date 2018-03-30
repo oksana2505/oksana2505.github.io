@@ -35,7 +35,7 @@
     float: left;
     display: block;
     width: 550px;
-    border: 4px double black;
+    /*border: 4px double black;*/
 }
 
 .navigation {
@@ -80,21 +80,20 @@ ul {
     margin-right: 20px;
     font-size: 14px;
     line-height: 38px;
-    /*font-family: "Proxima Nova Light";*/
+    font-family: "Proxima Nova Regular";
     text-transform: capitalize;
     /*padding-left: 33px;*/
 
 
 }
 
-/*.navigation-main .navigation_item:last-child {*/
+.navigation_item .navigation_link:hover {
 
-    /*margin-right: 1px;*/
-
-/*}*/
+    font-family: "Proxima Nova Bold";
+    color: white;
+}
 
 .navigation-main .navigation_link {
-
 
     font-size: inherit;
     line-height: inherit;
@@ -108,7 +107,7 @@ ul {
 
 .navigation-main .navigation_link:hover {
 
-    color: #c7b299;
+    color: white;
 
 }
 
@@ -147,7 +146,7 @@ ul {
 .toolsbar {
 
     position: relative;
-    left: 740px;
+    left: 730px;
     /*left: auto;*/
     /*height: 100%;*/
     vertical-align: middle;
@@ -167,11 +166,11 @@ ul {
 
     position: absolute;
     right: 0px;
-    /*top: 5px;*/
+    top: 5px;
     width: 179px;
     height: 27px;
     /*padding-top: 5px;*/
-    /*border-radius: 20px;*/
+
     /*margin-left: auto;*/
 }
 .toolsbar input#search{
@@ -181,21 +180,17 @@ ul {
     border: none;
     opacity: 0.9;
     font-size: 16px;
-    /*font-family: Proxima Nova Light;*/
-    /*float: left;*/
+    font-family: "Proxima Nova Light";
+    padding-left: 10px;
     color: #1f2020;
-
-    padding-left: 20px;
-    /*-webkit-border-radius: 5px;*/
-    /*-moz-border-radius: 5px;*/
-     border-radius: 25px;
+    border-radius: 20px;
 
 }
 .search input#search::-webkit-input-placeholder {
     color: #65737e;
  }
 .search input#search:-moz-placeholder { /* Firefox 18- */
-    color: #65737e;
+    /*color: #65737e;*/
 }
 .search input#search::-moz-placeholder {  /* Firefox 19+ */
     color: #65737e;
