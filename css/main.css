@@ -14,5 +14,7 @@
     font-family: "Proxima Nova Regular";
     src: url(fonts/ProximaNova-Regular.ttf)
 }
-
+@font-face {
+    font-family: "Montserrat Light";
+    src: url(fonts/Montserrat-Light.ttf);
 
