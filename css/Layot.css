@@ -84,7 +84,7 @@ html {
 .btn-middle {
 
     width: 210px;
-    border-radius: 33px;
+    border-radius: 20px;
 
     background-color: #54d154;
 
@@ -93,25 +93,25 @@ html {
     line-height: 50px;
     text-transform: uppercase;
 
-}
+/*}*/
 
-.btn-action,
+/*.btn-action,
 .btn-filter {
 
     width: 170px;
     border-radius: 33px;
     border-bottom: 32px solid #54d154;
+
     background-color: white;
     color: #ffffff;
     cursor: pointer;
 
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 14px;
     line-height: 47px;
     text-transform: uppercase;
     text-align: center;
 
 }
-
-/*  /BUTTON  */
+  /* BUTTON*/
