@@ -4,14 +4,13 @@
 .navigation_wrapper,
 .navigation-main,
 .brand,
-.brand_link,
-.toolsbar,
+.brand_name,
 .search {
 
     margin: 0;
     padding: 0;
-
 }
+
 .page_header {
 
     display: block;
@@ -34,90 +33,82 @@
 
     float: left;
     display: block;
-    width: 550px;
+    width: 475px;
+    margin-left: -32px;
+    padding-top: 11px;
+
     /*border: 4px double black;*/
-}
-
-.navigation {
-
-    list-style: none;
-
-    text-align: left;
-
-
 }
 
 .navigation_item {
 
     list-style: none;
-
-
 }
 
 .navigation_link {
 
     text-decoration: none;
     color: inherit;
-
 }
 
+
+.navigation_link::before {
+
+    position: absolute;
+
+    content: "";
+    display: block;
+    width: 43px;
+    height: 5px;
+    /*margin-bottom: 100%;*/
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.navigation_link:hover:before{
+    background-color: #54d154;
+}
 .navigation-main {
 
     font-size: 0;
     line-height: 0;
     vertical-align: top;
-
-}
-
-ul {
-    padding-left: 3px;
 }
 
 .navigation-main .navigation_item {
 
     display: inline-block;
-    vertical-align: middle;
+    /*vertical-align: ;*/
     margin-right: 20px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 38px;
     font-family: "Proxima Nova Regular";
     text-transform: capitalize;
-    /*padding-left: 33px;*/
-
 
 }
-
 .navigation_item .navigation_link:hover {
 
     font-family: "Proxima Nova Bold";
     color: white;
 }
-
 .navigation-main .navigation_link {
 
     font-size: inherit;
     line-height: inherit;
     color: #ffffff;
 
-
-}
-.navigation-main {
-    padding-left: 33px;
 }
 
 .navigation-main .navigation_link:hover {
 
     color: white;
-
 }
-
 
 /* NAVIGATION  */
 
 
 /* BRAND */
 
-.brand {
+/*.brand {
 
     float: left;
     width: 200px;
@@ -128,50 +119,50 @@ ul {
     text-align: center;
     /*border: 4px double black;*/
 
-}
+/*}*/
 
-.brand_link {
+/*.brand_link {
 
     display: inline-block;
     vertical-align: center;
     text-decoration: none;
     color: inherit;
     /*margin-top: 6px;*/
-    padding-top: 6px;
+    /*padding-top: 6px;*/
     /*line-height: 0;*/
 
-}
+/*}*/
 
 /* SEARCH */
-.toolsbar {
+/*.toolsbar {
 
     position: relative;
     left: 730px;
     /*left: auto;*/
     /*height: 100%;*/
-    vertical-align: middle;
+    /*vertical-align: middle;*/
 
     /*white-space: nowrap;*/
     /*margin: 100px auto;*/
     /*margin-left: auto;*/
-    width: 550px;
+    /*width: 550px;*/
 
-    height: 50px;
+    /*height: 50px;*/
     /*border: 4px double black;*/
 
 
-}
+/*}*/
 
-.search {
+/*.search {
 
     position: absolute;
     right: 0px;
     top: 5px;
     width: 179px;
     height: 27px;
-    /*padding-top: 5px;*/
+    padding-top: 5px;
 
-    /*margin-left: auto;*/
+    margin-left: auto;
 }
 .toolsbar input#search{
     width: 200px;
@@ -191,25 +182,53 @@ ul {
  }
 .search input#search:-moz-placeholder { /* Firefox 18- */
     /*color: #65737e;*/
-}
-.search input#search::-moz-placeholder {  /* Firefox 19+ */
-    color: #65737e;
-}
-.search input#search:-ms-input-placeholder {
-    color: #65737e;
-}
-.search .icon_search {
-    position: relative;
+/*}*/
+/*.search input#search::-moz-placeholder {  !* Firefox 19+ *!*/
+    /*color: #65737e;*/
+/*}*/
+/*.search input#search:-ms-input-placeholder {*/
+    /*color: #65737e;*/
+/*}*/
+/*.search .icon_search {*/
+    /*position: relative;*/
     /*top: 20px;*/
-    bottom: 5%;
+    /*bottom: 5%;*/
 
     /*border: 4px double black;*/
-}
-.icon_search {
+/*}*/
+/*.icon_search {
     position: absolute;
     left: 170px;
     top: 25px;
     color: #434343;
     z-index: 1;
+}*/
+.brand {
+
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
+.search {
+    float: right;
+    display: block;
+
+    width: 180px;
+    font-size: 16px;
+    font-family: "Proxima Nova Bold";
+
+    border-radius: 33px;
+    text-align: center;
+    /*padding-right: 1px;*/
+
+
+    background-color: #d9d7d6;
+    opacity: 0.7;
+    /*font-size: 12px;*/
+    line-height: 27px;
+    text-transform: uppercase;
+
+    border: 4px double black;
+
+}

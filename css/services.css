@@ -13,7 +13,7 @@
 
     display: block;
     padding-top: 43px;
-    padding-bottom: 475px;
+    padding-bottom: 460px;
 
     font-family: "Montserrat Light", sans-serif;
     font-size: 14px;
@@ -40,15 +40,42 @@ a {
 }
 
 .services_title {
+    position: relative;
     text-align: center;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 4px;
-    margin-bottom: 21px;
+    margin-bottom: 26px;
     text-transform: uppercase;
 
     color: #828181;
 
+}
+
+.services_title::before {
+    position: absolute;
+
+    content: "";
+    display: block;
+    width: 44px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #828181;
+
+    bottom: -14px;
+    left: 0;
+    right: 0;
+
+    /*background-color: #e1f3e1;*/
+}
+
+.services_description {
+
+
+    text-align: center;
+
+    margin-bottom: 73px;
+    color: #b7b3b3;
 }
 .services_title2 {
 
@@ -56,13 +83,7 @@ a {
     font-size: 24px;
     color: #828181;
 }
-.services_description {
 
-    text-align: center;
-
-    margin-bottom: 477px;
-    color: #b7b3b3;
-}
 
 .services_description2 {
     font-family: "Montserrat Light", sans-serif;
@@ -110,10 +131,9 @@ a {
     color: inherit;
     text-align: center;
 
-
-
-
 }
+
+
 
 .services_link1::before {
 
@@ -124,24 +144,56 @@ a {
     left: 0;
     right: 0;
 
-    width: 89px;
+    width: 144px;
     margin: 0 auto;
-    height: 79px;
+    height: 144px;
 
     background-image: url(../img/sprite.png);
     background-repeat: no-repeat;
+    background-color: #e1f3e1;
+    border-radius: 33px;
+    background-position: 27px 32px;
 }
-.services_link1::before {
 
-    background-position: 0px 0;
-   
-}
 .services_link2::before {
 
-    background-position: -298px 0px;
-}
-.services_link1::before {
+    content: "";
 
-    /*background-position: -846px 0px;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    width: 144px;
+    margin: 0 auto;
+    height: 144px;
+
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+
+    background-position: -355px 30px;
+    background-color: #e1f3e1;
+
+    border-radius: 30px;
+}
+.services_link3::before {
+
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    width: 144px;
+    margin: 0 auto;
+    height: 144px;
+
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    background-color: #e1f3e1;
+    border-radius: 33px;
+
+    background-position: -731px 28px;
 }
 

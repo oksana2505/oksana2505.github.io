@@ -71,7 +71,7 @@
     /*padding-top: 253px;*/
     /*margin-left: 277px;*/
 /*}*/
-.btn_scroll_down{
+.btn_scroll_down {
     position: absolute;
     width: 120px;
     height: 27px;
@@ -82,16 +82,11 @@
     text-align: center;
     padding-right: 15px;
 
-
     background-color: #d9d7d6;
     opacity: 0.7;
     font-size: 12px;
     line-height: 27px;
     text-transform: uppercase;
-    /*font-family: Proxima Nova Light;*/
-    /*float: left;*/
-    color: #1f2020;
-
 }
 
 .presentation_wrapper .icon_arrow {

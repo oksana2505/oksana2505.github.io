@@ -22,8 +22,10 @@ html {
 
 .container {
 
-    width: 1107px;
-    margin: 0;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+
 
 }
 
@@ -93,7 +95,8 @@ html {
     line-height: 50px;
     text-transform: uppercase;
 
-/*}*/
+}
+
 
 /*.btn-action,
 .btn-filter {

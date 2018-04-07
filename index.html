@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Switch</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/fonts">
     <link rel="stylesheet" href="css/Layot.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/page_content.css">
     <link rel="stylesheet" href="css/services.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/Latest work.css">
+
     <link rel="stylesheet" href="css/main.css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
 
-<body>
 <body class="no-js">
 
 <!-- Page Header -->
@@ -29,20 +30,12 @@
             </ul>
         </nav>
         <div class="brand">
-            <a class="brand_link"><strong>Switch</strong></a>
-            <h2 class="brand_name visually-hidden">Switch</h2>
+            <a><h2 class="brand_name">Switch</h2></a>
         </div>
-        <div class="toolsbar">
-            <div class="search">
-                <span class="icon_search"><i class="fa fa-search"></i></span>
-                <input type="search" id="search" placeholder="Search..." />
-                    <!--<input type="search" type="button" value="Search...">-->
-                    <!--<input type="button" value="Search...">-->
-                    <!--<strong class="search_btn">Search...<strong>-->
-                    <!--<i class="search_icon"></i>-->
-                    <!--Search bloc...-->
-            </div>
-        </div>
+        <form class="search" name="search" action="#" method="get">
+            <input type="search" id="search" placeholder="Search..." />
+            <button type="submit" class="icon_search"><i class="fa fa-search"></i></button>
+        </form>
     </div>
 </header>
 <!-- Page Header -->
@@ -72,7 +65,7 @@
                 <button class="btn btn-filter" type="submit">Learn more</button>
             </li>
             <li class="services_item">
-                <a href="#" class="services_link2">
+                <a href="#" class="services_link2 fon">
                     <h3 class="services_title2">Lorem Ipsum</h3>
                     <p class="services_description2">his is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
 
@@ -95,13 +88,25 @@
             <h2 class="latestwork_title">OUR LATEST WORK</h2>
             <p class="latestwork_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
             <form class="latestwork_categories" name="latestwork" action="#" method="post">
-                <input id="latestwork-photography" type="radio" name="filter" value="photography" checked>
+                <label class="latestwork_filter">
+                    <input type="radio" name="filter"value="photography" checked>
+                    <span>Photography</span>
+                </label>
+                <label class="latestwork_filter">
+                    <input type="radio" name="filter" value="design">
+                    <span>design</span>
+                </label>
+                <label class="latestwork_filter">
+                    <input type="radio" name="filter" value="print">
+                    <span>print</span>
+                </label>
+                <!--<input id="latestwork-photography" type="radio" name="filter" value="photography" checked>
                 <input id="latestwork-design" type="radio" name="filter" value="design">
                 <input id="latestwork-print" type="radio" name="filter" value="print">
                 <label class="latestwork_filter" for="latestwork-photography">photography</label>
                 <label class="latestwork_filter" for="latestwork-design">design</label>
-                <label class="latestwork_filter" for="latestwork-print">print</label>
-                <button class="btn btn-filter" type="submit">View more work</button>
+                <label class="latestwork_filter" for="latestwork-print">print</label>-->
+                <button class="btn btn-filter3" type="submit">View more work</button>
             </form>
             <ul class="latestwork_list">
                 <li class="latestwork_photo">
