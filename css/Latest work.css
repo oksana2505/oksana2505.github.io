@@ -137,3 +137,11 @@
     padding-right: 15px;
 }
 
+.btn-filter3,
+.fa-arrow-right {
+    padding-left: 10px;
+
+}
+.fa-arrow-right {
+    weight: 100;
+}
