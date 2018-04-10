@@ -1,0 +1,137 @@
+.client,
+.client-description,
+.client-list,
+.client_item {
+    margin: 0;
+    padding: 0;
+}
+
+.client {
+    width: 100%;
+    height: 598px;
+    background-color: #f2f1f1;
+    padding: 31px 25px;
+
+}
+.client-title {
+    position: relative;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    /*margin-bottom: 20px;*/
+    text-transform: uppercase;
+    font-family: "Montserrat Light", sans-serif;
+
+    color: #828181;
+
+}
+
+.client-title::before {
+    position: absolute;
+
+    content: "";
+    display: block;
+    width: 44px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #828181;
+
+    bottom: -14px;
+    left: 0;
+    right: 0;
+
+    /*background-color: #e1f3e1;*/
+}
+
+.client-description {
+
+
+    text-align: center;
+
+    margin-bottom: 60px;
+    color: #b7b3b3;
+}
+.client-list {
+    list-style: none;
+    /*height: 489px;*/
+
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.client_item {
+    list-style: none;
+    display: inline-block;
+    /*width: 25%;*/
+
+    font-size: 14px;
+    /*line-height: 1px;*/
+    /*vertical-align: middle;*/
+
+    opacity: 0.5;
+    transition: opacity 0.5s;
+
+}
+.client_item:hover {
+
+    opacity: 1;
+}
+.client_link {
+
+    display: inline-block;
+    width: 270px;
+    height: 180px;
+    margin: 0 auto;
+    /*border: none;*/
+    position: relative;
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.client_link-google {
+    background-image: url("../img/Googlelogo.svg");
+}
+.client_link-yahoo {
+    background-image: url("../img/Yahoo_Logo.svg");
+}
+.client_link-microsoft {
+    background-image: url("../img/MSFT_logo.svg");
+
+}
+.client_link-intel {
+    background-image: url("../img/Intel-logo.svg");
+}
+.client_link-qualcomm {
+    background-image: url("../img/qu_logo.svg");
+}
+.client_link-cisco {
+    background-image: url("../img/Cisco_logo.svg");
+}
+.client_link-apple {
+    background-image: url("../img/Apple-logo.svg");
+}
+.client_link-asus {
+    background-image: url("../img/ASUS_Logo.svg");
+}
+.btn-filter4 {
+    position: absolute;
+    width: 185px;
+    height: 39px;
+    border: 1px solid #dddcdc;
+    background-color: #dddcdc;
+    border-radius: 20px;
+    color: #a59d9d;
+    font-family: "Proxima Nova Regular", sans-serif;
+    font-size: 16px;
+    margin-top: 373px;
+    /*padding-right: 15px;*/
+
+}
+.btn-filter3,
+.fa-arrow-right {
+    padding-left: 20px;
+}
