@@ -109,13 +109,16 @@
     border: 1px solid #ffffff;
     background-color: white;
     border-radius: 20px;
-    padding-top: 13px;
+    padding-top: 6px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 .btn-action {
     /*position: absolute;*/
     width: 210px;
-    left: 42%;
-    bottom: 87%;
+    /*left: 42%;*/
+    /*bottom: 67px;*/
     border-radius: 33px;
     text-align: center;
     background-color: #54d154;
@@ -125,4 +128,5 @@
     color: white;
     font-family: "Proxima Nova Regular";
     color: white;
+    margin-bottom: 70px;
 }
