@@ -108,9 +108,10 @@
 
 /* BRAND */
 
-/*.brand {
+.brand {
+    margin:0 auto;
 
-    float: left;
+    padding-top: 8px;
     width: 200px;
     font-size: 24px;
     font-family: "Nautilus Pompilius";
@@ -195,35 +196,27 @@
     /*bottom: 5%;*/
 
     /*border: 4px double black;*/
-/*}*/
-/*.icon_search {
-    position: absolute;
-    left: 170px;
-    top: 25px;
-    color: #434343;
-    z-index: 1;
-}*/
-.brand {
-
-    margin-left: auto;
-    margin-right: auto;
-
 }
+
 
 .search {
     float: right;
     display: block;
-
+    position: relative;
     width: 180px;
     font-size: 16px;
     font-family: "Proxima Nova Bold";
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+
 
     border-radius: 33px;
     text-align: center;
     /*padding-right: 1px;*/
 
 
-    background-color: #d9d7d6;
+    /*background-color: #d9d7d6;*/
     opacity: 0.7;
     /*font-size: 12px;*/
     line-height: 27px;
@@ -231,4 +224,11 @@
 
     border: 4px double black;
 
+}
+.icon_search {
+    position: absolute;
+    left: 170px;
+    top: 25px;
+    color: #434343;
+    z-index: 1;
 }

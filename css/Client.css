@@ -117,7 +117,7 @@
 .client_link-asus {
     background-image: url("../img/ASUS_Logo.svg");
 }
-.btn-filter4 {
+.btn-filter4:hover {
     position: absolute;
     width: 185px;
     height: 39px;
@@ -128,10 +128,11 @@
     font-family: "Proxima Nova Regular", sans-serif;
     font-size: 16px;
     margin-top: 373px;
+
     /*padding-right: 15px;*/
 
 }
-.btn-filter3,
+.btn-filter3:hover,
 .fa-arrow-right {
     padding-left: 20px;
 }
