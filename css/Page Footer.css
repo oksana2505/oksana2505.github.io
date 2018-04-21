@@ -26,6 +26,9 @@
     background-color: #333333;
     padding-top: 30px;
 }
+
+
+
 .summary {
     display: block;
     /*float: left;*/
@@ -82,10 +85,22 @@
 
 }
 
+.summary_block_posts {
+    margin:0 auto;
+}
+.posts_list {
+    list-style: none;
+}
+
+.summary_link {
+    text-decoration: none;
+    color: white;
+}
 .summary_block_contact {
     display: block;
     float: right;
     width: 312px;
     text-align: center;
+
     /*right: 32px;*/
 }

@@ -7,10 +7,11 @@
 }
 
 .client {
-    width: 100%;
+    width: auto;
     height: 598px;
     background-color: #f2f1f1;
     padding: 31px 25px;
+
 
 }
 .client-title {

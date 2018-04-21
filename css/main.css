@@ -24,3 +24,8 @@
     src: url(fonts/ProximaNova-Bold.ttf);
 
 }
+@font-face {
+    font-family: "Nautilus Pompilius";
+    src: url(fonts/Nautilus.otf);
+
+}

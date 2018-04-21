@@ -34,8 +34,9 @@
     float: left;
     display: block;
     width: 475px;
-    margin-left: -32px;
+    /*margin-left: -32px;*/
     padding-top: 11px;
+    padding-left: 28px;
 
     /*border: 4px double black;*/
 }
@@ -81,13 +82,13 @@
     margin-right: 20px;
     font-size: 16px;
     line-height: 38px;
-    font-family: "Proxima Nova Regular";
+    font-family: "Proxima Nova Regular", sans-serif;
     text-transform: capitalize;
 
 }
 .navigation_item .navigation_link:hover {
 
-    font-family: "Proxima Nova Bold";
+    font-family: "Proxima Nova Bold", sans-serif;
     color: white;
 }
 .navigation-main .navigation_link {
@@ -154,18 +155,18 @@
 
 /*}*/
 
-/*.search {
+/*.search {*/
 
-    position: absolute;
-    right: 0px;
-    top: 5px;
-    width: 179px;
-    height: 27px;
-    padding-top: 5px;
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*top: 5px;*/
+    /*width: 179px;*/
+    /*height: 27px;*/
+    /*padding-top: 5px;*/
 
-    margin-left: auto;
+    /*margin-left: auto;*/
 }
-.toolsbar input#search{
+/*#search{
     width: 200px;
     height: 33px;
     background: #d9d7d6;
@@ -181,22 +182,22 @@
 .search input#search::-webkit-input-placeholder {
     color: #65737e;
  }
-.search input#search:-moz-placeholder { /* Firefox 18- */
-    /*color: #65737e;*/
-/*}*/
-/*.search input#search::-moz-placeholder {  !* Firefox 19+ *!*/
-    /*color: #65737e;*/
-/*}*/
-/*.search input#search:-ms-input-placeholder {*/
-    /*color: #65737e;*/
-/*}*/
+.search input#search:-moz-placeholder {  Firefox18-
+    color: #65737e;
+}
+.search input#search::-moz-placeholder {   Firefox19+
+    color: #65737e;
+}
+.search input#search:-ms-input-placeholder {
+    color: #65737e;
+}
 /*.search .icon_search {*/
     /*position: relative;*/
     /*top: 20px;*/
     /*bottom: 5%;*/
 
     /*border: 4px double black;*/
-}
+/*}*/
 
 
 .search {
@@ -217,14 +218,14 @@
 
 
     /*background-color: #d9d7d6;*/
-    opacity: 0.7;
+    /*opacity: 0.7;*/
     /*font-size: 12px;*/
-    line-height: 27px;
-    text-transform: uppercase;
+    /*line-height: 27px;*/
+    /*text-transform: uppercase;*/
 
-    border: 4px double black;
+    /*border: 4px double black;*/
 
-}
+/*}*/
 .icon_search {
     position: absolute;
     left: 170px;
