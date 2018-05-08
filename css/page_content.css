@@ -43,7 +43,7 @@
      height: 60px;
      left:25%;
      top:36%;
-     font-family: "Montserrat Bold", sans-serif;
+     font-family: "Montserrat", Bold;
      font-size: 55px;
      color: #ffffff;
  }
@@ -89,12 +89,12 @@
     text-transform: uppercase;
 }
 
-/*.presentation_wrapper .icon_arrow {*/
-    /*position: relative;*/
+.presentation_wrapper .icon_arrow {
+    position: relative;
     /*top: 20px;*/
-    /*bottom: 5%;*/
-    /*border: 4px double black;*/
-/*}*/
+    bottom: 5%;
+    border: 4px double black;
+}
 
  .icon_arrow-down {
      position: absolute;

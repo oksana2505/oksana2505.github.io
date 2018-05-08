@@ -2,10 +2,11 @@
 
 html, body {
 
-    min-width: 1170px;
+    min-width: 1140px;
     width: 100%;
     margin: 0;
     padding: 0;
+    /*border: none;*/
     background-color: #ffffff;
     color: #000000;
 
@@ -14,17 +15,19 @@ html, body {
 html {
 
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 16px;
     line-height: 28px;
 
 }
 
 .container {
+    width: 1200px;
+    margin: 0 auto;
 
-    width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
+    /*width: 1140px;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
 
 
 }
@@ -34,8 +37,6 @@ html {
 
     content: "";
     display: table;
-    width: 100%;
-
 }
 
 .clearfix::after {
@@ -80,6 +81,7 @@ html {
     outline: none;
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 
 }
 
@@ -98,23 +100,3 @@ html {
 }
 
 
-/*.btn-action,
-.btn-filter {
-
-    width: 170px;
-    border-radius: 33px;
-    border-bottom: 32px solid #54d154;
-
-    background-color: white;
-    color: #ffffff;
-    cursor: pointer;
-
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 47px;
-    text-transform: uppercase;
-    text-align: center;
-
-}
-  /* BUTTON*/

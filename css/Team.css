@@ -1,5 +1,4 @@
 .team,
-.container,
 .team-title,
 .team-title,
 .team-list,
@@ -7,7 +6,8 @@
 .photo,
 .photo-img,
 .photo-name,
-.photo-name_name {
+.photo-name_name,
+.work_button {
     margin: 0;
     padding: 0;
 }
@@ -103,22 +103,36 @@
 
 }
 .social_network {
-    /*position: relative;*/
+    display: block;
+
     width: 85px;
-    height: 31px;
-    border: 1px solid #ffffff;
-    background-color: white;
-    border-radius: 20px;
-    padding-top: 6px;
-    box-sizing: border-box;
-    margin-right: 10px;
-    margin-top: 5px;
+    height: 28px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: #c5e9c5;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+    /*display: block;*/
+    /*width: 85px;*/
+    /*height: 31px;*/
+    /*border: 1px solid #ffffff;*/
+    /*background-color: white;*/
+    /*border-radius: 50px;*/
+    /*padding-top: 6px;*/
+    /*box-sizing: border-box;*/
+    /*margin-right: -10px;*/
+    /*margin-top: 5px;*/
+    /*margin: 0 auto;*/
+
 }
 .btn-action {
-    /*position: absolute;*/
+    position: absolute;
     width: 210px;
-    /*left: 42%;*/
-    /*bottom: 67px;*/
+    left: 0;
+    right: 0;
     border-radius: 33px;
     text-align: center;
     background-color: #54d154;
@@ -128,5 +142,11 @@
     color: white;
     font-family: "Proxima Nova Regular";
     color: white;
-    margin-bottom: 70px;
+    margin: -70px auto;
+
+}
+.btn-action:hover {
+    background-color: white;
+    color: #207b20;
+
 }

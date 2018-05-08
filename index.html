@@ -10,18 +10,21 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/page_content.css">
     <link rel="stylesheet" href="css/services.css">
-    <link rel="stylesheet" href="css/Latest work.css">
+    <link rel="stylesheet" href="css/Latestwork.css">
     <link rel="stylesheet" href="css/Testimonials.css">
     <link rel="stylesheet" href="css/Client.css">
     <link rel="stylesheet" href="css/Team.css">
-    <link rel="stylesheet" href="css/Page Footer.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <link rel="stylesheet" href="css/massmedia.css">
+    <link rel="stylesheet" href="css/toup.css">
 
     <link rel="stylesheet" href="css/main.css">
+
 
 </head>
 
 <body class="no-js">
-
+<section class="header_title" id="toup"></section>
 <!-- Page Header -->
 <header class="page_header">
     <div class="container clearfix">
@@ -93,23 +96,17 @@
             <p class="latestwork_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
             <form class="latestwork_categories" name="latestwork" action="#" method="post">
                 <label class="latestwork_filter">
-                    <input type="radio" name="filter"value="photography" checked>
-                    <span>Photography</span>
+                    <input type="radio" name="filter" value="photography" checked>
+                    <button class="photo">Photography</button>
                 </label>
                 <label class="latestwork_filter">
                     <input type="radio" name="filter" value="design">
-                    <span>design</span>
+                    <button class="design"> design</button>
                 </label>
                 <label class="latestwork_filter">
                     <input type="radio" name="filter" value="print">
-                    <span>print</span>
+                    <button class="print">print</button>
                 </label>
-                <!--<input id="latestwork-photography" type="radio" name="filter" value="photography" checked>
-                <input id="latestwork-design" type="radio" name="filter" value="design">
-                <input id="latestwork-print" type="radio" name="filter" value="print">
-                <label class="latestwork_filter" for="latestwork-photography">photography</label>
-                <label class="latestwork_filter" for="latestwork-design">design</label>
-                <label class="latestwork_filter" for="latestwork-print">print</label>-->
                 <button class="btn btn-filter3" type="submit">View more work<i class="fa fa-arrow-right"></i></button>
             </form>
             <ul class="latestwork_list">
@@ -152,12 +149,62 @@
         <div class="container">
             <h2 class="testimonials-title">TESTIMONIALS</h2>
             <p  class="testimonials_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
-            <p class="testimonials_1">“Awalnya saya tidak menderita penyakit apapun,<br>
-                namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan
-                tidak menderita penyakit apapun!"</p>
+
+            <div id="offers_slider" class="slider">
+                <input id="slide-01" class="slider_switch" type="radio" name="switch" checked>
+                <input id="slide-02" class="slider_switch" type="radio" name="switch">
+                <input id="slide-03" class="slider_switch" type="radio" name="switch">
+                <div class="slider_wrapper">
+                    <ul class="slider_content container">
+                        <li class="slider_slide slider_slide-01">
+                            <p class="testimonials_content">“Awalnya saya tid ak menderita penyakit apapun,
+                                namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan
+                                tidak menderita penyakit apapun!”</p>
+                            <div class="herp">
+                                <img class="herp-1" src="img/herp1.png" alt="face">
+                                <p class="herp_name">Mr. Darck</p>
+                                <p class="herp_info">CEO of Meme, Inc.</p>
+                            </div>
+                        </li>
+                        <li class="slider_slide slider_slide-02">
+                            <p class="testimonials_content">“Salus populi suprema lex esto. Scire leges non est verba tenere, sed vim ac mentem. Semper moram fur facere videtur. ”</p>
+                            <div class="herp">
+                                <img class="herp-2" src="img/herp2.png" alt="face">
+                                <p class="herp_name">Mr. Maryk</p>
+                                <p class="herp_info">CEO of Nium, Inc.</p>
+                            </div>
+                        </li>
+                        <li class="slider_slide slider_slide-03">
+                            <p class="testimonials_content">“Par in parem non habet iurisdictionem. Paribus sententiis reus absolvitur. Pax quaerenda est. Post hoc non est propter hoc. Prior tempore potior iure. ”</p>
+                            <div class="herp">
+                                <img class="herp-3" src="img/herp3.png" alt="face">
+                                <p class="herp_name">Mr. Herp</p>
+                                <p class="herp_info">CEO of Djoy, Inc.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="slider_indicators">
+                        <label class="slider_indicator" for="slide-01"></label>
+                        <label class="slider_indicator" for="slide-02"></label>
+                        <label class="slider_indicator" for="slide-03"></label>
+                    </div>
+                </div>
+                <button class="slider_btn slider_btn-prev" type="button">&#8249;</button>
+                <button class="slider_btn slider_btn-next" type="button">&#8250;</button>
+            </div>
+    </section>
+
+
+
+
+
+
+            <!--<p class="testimonials_1">“Awalnya saya tidak menderita penyakit apapun,<br>-->
+                <!--namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan-->
+                <!--tidak menderita penyakit apapun!"</p>-->
             <!--<button class="testimonials_btn testimonials_btn-prev" type="button">#</button>-->
             <!--<button class="testimonials_btn slider_btn-next" type="button">#</button>-->
-            <ul class="testimonial-client">
+            <!--<ul class="testimonial-client">
                 <li class="avatar-client">
                     <img class="avatar" src="img/ellipse 1.png" alt="#">
                 </li>
@@ -288,19 +335,24 @@
                     </figure>
                 </li>
             </ul>
+        </div>
+    </section>
+    <section class="work_button">
+        <div class="container">
             <a href="#" class="btn btn-action">WORK WITH US</a>
         </div>
     </section>
 </main>
+
+<a class="toup toup-visible" href="#toup">Up</a>
 
 <!-- Page Footer -->
 <footer class="page_footer">
     <div class="summary">
         <div class="container">
             <!--Block_about-->
-            <div class="summary_block_about">
+            <div class="summary_block">
                 <h2 class="summary_title">ABOUT US</h2>
-                <!--<a href="#">-->
                 <p class="summary_description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Ut aliquam massa nisl quis neque. Suspendisse in orci enim.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.
                 </p>
                 <div class="social_network2">
@@ -316,46 +368,48 @@
                 </div>
             </div>
             <!--Block_posts-->
-            <div class="summary_block_posts">
+            <div class="summary_block">
                 <h2 class="summary_title">RECENTS POSTS</h2>
-                <ul class="posts_list">
+
+                <ul class="summary_list">
                     <li class="summary_item">
-                        <a href="#" class="summary_link">
-                            <img src="img/photo1.jpg" alt="magazine" class="summary_image">
-                            <span>Lorem Ipsum Dolor Sit Amet.</span>
-                            <button class="btn btn-filter" type="submit">MAGAZINE</button>
+                        <a class="summary_link" href="#">
+                            <img class="post_foto" src="img/photo1.jpg" alt="foto posts">
+                            <p class="post_text">Lorem ipsum dolor sit amet.</p>
+                            <p class="category1">Magazine</p>
                         </a>
                     </li>
                     <li class="summary_item">
-                        <a href="#" class="summary_link">
-                            <img src="img/photo2.jpg" alt="design" class="summary_image">
-                            <span>Lorem Ipsum Dolor Sit Amet.</span>
-                            <button class="btn btn-filter" type="submit">UI DESIGN</button>
+                        <a class="summary_link" href="#">
+                            <img class="post_foto" src="img/photo2.jpg" alt="foto posts">
+                            <p class="post_text">Lorem ipsum dolor sit amet.</p>
+                            <p class="category2">Ul design</p>
                         </a>
                     </li>
                     <li class="summary_item">
-                        <a href="#" class="summary_link">
-                            <img src="img/photo3.jpg" alt="photographi" class="summary_image">
-                            <span>Lorem Ipsum Dolor Sit Amet.</span>
-                            <button class="btn btn-filter" type="submit">PHOTOGRAPHY</button>
+                        <a class="summary_link" href="#">
+                            <img class="post_foto" src="img/photo3.jpg" alt="foto posts">
+                            <p class="post_text">Lorem ipsum dolor sit amet.</p>
+                            <p class="category3">Photography</p>
                         </a>
                     </li>
                     <li class="summary_item">
-                        <a href="#" class="summary_link">
-                            <img src="img/photo4.jpg" alt="book" class="summary_image">
-                            <span>Lorem Ipsum Dolor Sit Amet.</span>
-                            <button class="btn btn-filter" type="submit">BOOK</button>
+                        <a class="summary_link" href="#">
+                            <img class="post_foto" src="img/photo4.jpg" alt="foto posts">
+                            <p class="post_text">Lorem ipsum dolor sit amet.</p>
+                            <p class="category4">Book</p>
                         </a>
                     </li>
                     <li class="summary_item">
-                        <a href="#" class="summary_link">
-                            <img src="img/photo5.jpg" alt="design" class="summary_image">
-                            <span>Lorem Ipsum Dolor Sit Amet.</span>
-                            <button class="btn btn-filter" type="submit">UI DESIGN</button>
+                        <a class="summary_link" href="#">
+                            <img class="post_foto" src="img/photo5.jpg" alt="foto posts">
+                            <p class="post_text">Lorem ipsum dolor sit amet.</p>
+                            <p class="category5">Ul design</p>
                         </a>
                     </li>
                 </ul>
             </div>
+
             <!--Block contact-->
             <div class="summary_block_contact">
                 <h2 class="summary_title">CONTACT US</h2>
@@ -364,35 +418,76 @@
                     Email: Username@email.com<br>
                     Phone: +1 (0) 123 4567 890<br>
                     Fax: +1 (0) 321 4567 890</p>
-                <form action="#" method="post">
-                    <input type="text" name="name" placeholder="Your Name.."><br>
-                    <input type="text" name="email" placeholder="Your Email.."><br>
-                    <input type="text" name="mesage" placeholder="Your Mesage.."><br>
-                    <input type="submit" value="SEND">
-                </form>
+
+                <div class="feedback-form__wrapper">
+                    <form id="feedback-form" action="/form.php" method="post" name="feedback_form" enctype="application/x-www-form-urlencoded">
+                        <h2 class="visually-hidden">Обратная связь</h2>
+
+                        <input id="user-name" type="text" name="user_name" value="" placeholder="Your Name.." onfocus="this.placeholder=''" onchange="this.value = this.value.replace(/^\s+|\s+$/g, '')" autofocus required>
+
+                        <input id="user-email" type="email" name="user_email" value="" placeholder="Your Email.." onfocus="this.placeholder=''"  onchange="if(this.value != '')" required>
+
+                        <textarea name="message" id="user-message" rows="5" placeholder="Your Message.." onfocus="this.placeholder=''" required></textarea>
+                        <button id="feedback-send" class="btn btn-forma_send" type="submit">Send</button>
+                        <div class="overlay">
+                            <div id="messageSubmit">
+                                <p >Message Submitted!</p>
+                                <button class="feedback__close" type="button">закрити</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="massmedia">
-                <h2 class="massmedia_title"></h2>
-                <ul class="massmedia_list">
-                    <li class="massmedia_item"><a class="massmedia_link massmedia_link-cnn" href="#"><span class="visually-hidden">CNN</span></a></li>
-                    <li class="massmedia_item"><a class="massmedia_link massmedia_link-tech_crunch" href="#"><span class="visually-hidden">Tech Crunch</span></a></li>
-                    <li class="massmedia_item"><a class="massmedia_link massmedia_link-bbc" href="#"><span class="visually-hidden">BBC</span></a></li>
-                    <li class="massmedia_item"><a class="massmedia_link massmedia_link-the_new_york" href="#"><span class="visually-hidden">The New York Times</span></a></li>
-                </ul>
-            </div>
-            <div class="slogan">
-                <strong>made with</strong>
-                <img src="img/heart.svg">
-                <strong>by Krisna :)</strong>
-            </div>
-        </div>
-    </div>
+         </div>
+     </div>
 </footer>
 
+<!--massmedia-->
+<section class="massmedia">
+    <div class="container">
+         <h2 class="massmedia_title">AS SEEN ON</h2>
+         <ul class="massmedia_list">
+             <li class="massmedia_item">
+                 <a class="massmedia_link" href="#"><span class="visually-hidden">CNN</span>
+                    <img class="massmedia_image" src="img/Cnn.svg" alt="CNN">
+                 </a>
+             </li>
+             <li class="massmedia_item">
+                 <a class="massmedia_link" href="#"><span class="visually-hidden">Tech Crunch</span>
+                     <img class="massmedia_image" src="img/TechCrunch.svg" alt="TechCrunch">
+                 </a>
+             </li>
+             <li class="massmedia_item">
+                 <a class="massmedia_link" href="#"><span class="visually-hidden">BBC</span>
+                     <img class="massmedia_image" src="img/BBC.svg" alt="BBC">
+                 </a>
+             </li>
+             <li class="massmedia_item">
+                 <a class="massmedia_link" href="#"><span class="visually-hidden">The New York Times</span>
+                     <img class="massmedia_image" src="img/The_New_York_Times.svg" alt="The_New_York_Times">
+                 </a>
+             </li>
+         </ul>
+    </div>
+    <div class="slogan">
+        <strong>made with</strong>
+        <img src="img/heart.svg">
+        <strong>by Krisna :)</strong>
+    </div>
+</section>
+       <!-- Scroll-up -->
+<div class="scroll-up">
+    <a href="#toup" class="toup">Up</a>
+</div>
+<!-- /Scroll-up -->
+
 <!--  JAVA SCRIPTS  -->
+
 <script src="js/no-js.js"></script>
-
+<script src="js/slider.js"></script>
 <script src="js/sticky-header.js"></script>
-</body>
 
+<script type="text/javascript" src="js/toup.js"></script>
+
+</body>
 </html>
