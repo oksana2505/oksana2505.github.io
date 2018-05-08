@@ -2,46 +2,46 @@
 
 @font-face {
     font-family: "Proxima Nova Bold";
-    src: url(fonts/ProximaNova-Bold.ttf);
+    src: url(../fonts/ProximaNova-Bold.ttf);
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Proxima Nova Light";
-    src: url(fonts/ProximaNova-Light.ttf);
+    src: url(../fonts/ProximaNova-Light.ttf);
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Proxima Nova Regular";
-    src: url(fonts/ProximaNova-Regular.ttf);
+    src: url(../fonts/ProximaNova-Regular.ttf);
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "Montserrat Light";
-    src: url(fonts/Montserrat-Light.ttf);
+    src: url(../fonts/Montserrat-Light.ttf);
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Nautilus";
-    src: url(fonts/Nautilus.otf);
+    src: url(../fonts/Nautilus.otf);
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "Montserrat-Bold";
-    src: url(fonts/Montserrat-Bold.ttf);
+    src: url(../fonts/Montserrat-Bold.ttf);
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "OpenSans-Light";
-    src: url(fonts/OpenSans-Light.ttf);
+    src: url(../fonts/OpenSans-Light.ttf);
     font-style: normal;
     font-weight: normal;
 }
