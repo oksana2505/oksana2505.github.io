@@ -131,7 +131,7 @@
 
 .latestwork_list {
     position: relative;
-    float: left;
+    /*float: left;*/
     width: 160px;
     margin: 30px;
 }
@@ -248,6 +248,7 @@ button, input {
     list-style: none;
     margin-left: 123px;
     margin-top: 59px;
+    float: left;
 }
 
 .latestwork_photo {
