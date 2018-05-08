@@ -16,7 +16,7 @@
     text-align: center;
     display: block;
     background-color: #54d154;
-    height: 750px;
+    height: 350px;
 
 
     /*margin-left: auto;*/
@@ -33,7 +33,7 @@
     font-size: 14px;
     line-height: 24px;
 
-    background-color: #54d154;
+    /*background-color: #54d154;*/
 }
 .latestwork .container {
     position: relative;
@@ -75,9 +75,6 @@
     font-size: 0;
     line-height: 0;
     margin-top: 60px;
-
-    /*vertical-align: middle;*/
-
 }
 
 .latestwork_filter {
@@ -130,10 +127,11 @@
 }
 
 .latestwork_list {
-    position: relative;
-    /*float: left;*/
-    width: 160px;
-    margin: 30px;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
 
 .projects_image {
@@ -141,75 +139,6 @@
     max-width: 100%;
     height: auto;
 }
-
-
-
-
-
-
-
-/*.latestwork_filter {
-
-    display: inline-block;
-    margin: 0 5px;
-
-    font-family: "Proxima Nova Regular", sans-serif;
-    /*font-weight: 300;*/
-    /*font-size: 16px;
-    line-height: 37px;
-    text-transform: capitalize;
-    color: #2b9b2b;
-    border-right: 1px solid #2b9b2b;
-    padding-right: 7px;
-
-}
-
-/*.latestwork_filter button {
-    display: inline-block;
-    padding: 0 12px;
-    border: 1px solid #ebebeb;
-    /*border-top-color: rgb(235, 235, 235);*/
-    /*border-right-color: rgb(235, 235, 235);*/
-    /*border-bottom-color: rgb(235, 235, 235);*/
-    /*border-left-color: rgb(235, 235, 235);*/
-    /*white-space: nowrap;*/
-    /*cursor: pointer;*/
-    /*font-family: 'ProximaNovaRegular', sans-serif;*/
-    /*font-size: 16px;*/
-    /*line-height: 32px;*/
-    /*background-color: #ffffff;*/
-    /*border-color: #2b9b2b;*/
-    /*color: #2b9b2b;*/
-/*}*/
-
-
-/*.latestpwork_filter .print {
-    border-radius: 0 20px 20px 0;
-}
-button {
-    text-transform: none;
-}
-
-button, input {
-    overflow: visible;
-}
-.btn-filter {
-    background-color: #2b9b2b;
-    width: 190px;
-    border-radius: 25px;
-    font-size: 18px;
-    line-height: 40px;
-    font-family: 'ProximaNovaRegular', sans-serif;
-    text-align: center;
-    color: #ffffff;
-
-    position: absolute;
-    bottom: -455px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-/*}*/
-
 
 
 .latestwork_filter:nth-child(3) {
@@ -222,17 +151,6 @@ button, input {
     display: none;
 }
 
-/*.latestwork_categories {*/
-    /*margin-left: 38%;*/
-    /*margin-top: 60px;*/
-    /*width: 285px;*/
-    /*height: 41px;*/
-    /*border: 1px solid #207b20;*/
-
-    /*border-radius: 20px;*/
-    /*background-color: #ffffff;*/
-/*}*/
-
 .latestwork_filter:hover span,
 .latestwork_categories input[type="radio"]:checked + span {
 
@@ -240,6 +158,7 @@ button, input {
     background-color: #2b9b2b;
     cursor: pointer;
 }
+
 
 .latestwork_list,
 .latestwork_photo {
@@ -259,7 +178,7 @@ button, input {
     margin: 16px;
 }
 .btn-filter3 {
-    position: absolute;
+    /*position: absolute;*/
     width: 189px;
     height: 39px;
     border: 1px solid #2b9b2b;
@@ -268,15 +187,24 @@ button, input {
     color: white;
     font-family: "Proxima Nova Regular", sans-serif;
     font-size: 16px;
-    margin-top: 543px;
-    padding-right: 15px;
+    /*margin-top: 543px;*/
+    /*padding-right: 15px;*/
+    /*margin-left: 30px;*/
+    cursor: pointer;
+
+    position: absolute;
+    bottom: -600px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
+.btn-filter3:hover {
+    background-color: white;
+    color: #0b500b;
+}
 .btn-filter3,
 .fa-arrow-right {
     padding-left: 10px;
 
-}
-.fa-arrow-right {
-    weight: 100;
 }

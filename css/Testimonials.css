@@ -1,7 +1,6 @@
 .testimonials,
 .container,
 .testimonials-title,
-/*.testimonial-client {*/
 .testimonials_content,
 .herp,
 .herp_name,
@@ -12,9 +11,9 @@
 
 .testimonials {
     display: block;
-    width: 100%;
+    /*width: 100%;*/
     padding-top: 43px;
-    padding-bottom: 260px;
+    padding-bottom: 60px;
 
     font-family: "Montserrat Light", sans-serif;
     font-size: 14px;
@@ -58,13 +57,14 @@
 
 
 .testimonials_content {
-    font-family: 'ProximaNovaRegular', sans-serif; /*ProximaNova Regular*/
+    font-family: 'ProximaNova-Regular', sans-serif; /*ProximaNova Regular*/
     font-size: 16px;
     line-height: 28px;
     text-align: center;
     width: 500px;
     margin: 0 auto;
     color:#444444;
+
 }
 
 .herp {
@@ -191,9 +191,8 @@
 
 #slide-01:checked ~ .slider_wrapper label[for="slide-01"],
 #slide-02:checked ~ .slider_wrapper label[for="slide-02"],
-#slide-03:checked ~ .slider_wrapper label[for="slide-03"],
-#slide-04:checked ~ .slider_wrapper label[for="slide-04"],
-#slide-05:checked ~ .slider_wrapper label[for="slide-05"] {
+#slide-03:checked ~ .slider_wrapper label[for="slide-03"]{
+
 
     border-color: #d3c1ad;
     background-color: transparent;

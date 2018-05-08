@@ -1,14 +1,21 @@
  /*  LAYOUT  */
 
 html, body {
-
-    min-width: 1140px;
+    min-width: 1200px;
     width: 100%;
     margin: 0;
     padding: 0;
-    /*border: none;*/
     background-color: #ffffff;
     color: #000000;
+
+
+    /*min-width: 1140px;*/
+    /*width: 100%;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*border: none;*/
+    /*background-color: #ffffff;*/
+    /*color: #000000;*/
 
 }
 

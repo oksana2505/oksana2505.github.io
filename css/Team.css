@@ -14,8 +14,8 @@
 
 .team {
     display: block;
-    width: 100%;
-    height: 475px;
+    /*width: 100%;*/
+    height: 510px;
     background-color: #54d154;
     padding-top: 37px;
     font-family: "Montserrat Light", sans-serif;
@@ -82,6 +82,7 @@
 }
 .photo {
     position: relative;
+    padding-top: 40px;
 }
 .photo::before {
     position: absolute;
@@ -93,7 +94,7 @@
     margin: 0 auto;
     background-color: #207b20;
 
-    top: 134px;
+    top: 174px;
     left: 0;
     right: 0;
 }
@@ -103,29 +104,18 @@
 
 }
 .social_network {
-    display: block;
+    display: inline-block;
 
     width: 85px;
     height: 28px;
     left: 0;
     right: 0;
-    margin: 0 auto;
     border-radius: 25px;
     background-color: #c5e9c5;
     vertical-align: middle;
     text-align: center;
-    padding: 0;
-    /*display: block;*/
-    /*width: 85px;*/
-    /*height: 31px;*/
-    /*border: 1px solid #ffffff;*/
-    /*background-color: white;*/
-    /*border-radius: 50px;*/
-    /*padding-top: 6px;*/
-    /*box-sizing: border-box;*/
-    /*margin-right: -10px;*/
-    /*margin-top: 5px;*/
-    /*margin: 0 auto;*/
+    box-sizing: border-box;
+
 
 }
 .btn-action {
@@ -140,8 +130,8 @@
     line-height: 50px;
     text-transform: uppercase;
     color: white;
-    font-family: "Proxima Nova Regular";
-    color: white;
+    font-family: "Proxima Nova Regular", sans-serif;
+
     margin: -70px auto;
 
 }
