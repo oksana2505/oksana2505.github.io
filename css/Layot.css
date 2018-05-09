@@ -7,6 +7,7 @@ html, body {
     padding: 0;
     background-color: #ffffff;
     color: #000000;
+    overflow-x: hidden;
 
 
     /*min-width: 1140px;*/
